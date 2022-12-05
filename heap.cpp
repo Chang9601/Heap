@@ -86,6 +86,7 @@ void Heap::remove()
 
 void Heap::sort()
 {
+	/* 이진 힙이 빌 때까지 최솟값 추출 */
 	while(!empty()) {
 		std::cout << min() << std::endl;
 		remove();
